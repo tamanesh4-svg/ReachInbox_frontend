@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root { font-family: Inter, ui-sans-serif, system-ui, sans-serif; color: #172033; background: #f6f7fb; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+button, input, textarea, select { font: inherit; }
+
+.field { width: 100%; border: 1px solid #dbe1ea; border-radius: 9px; padding: 10px 12px; outline: none; background: white; }
+.field:focus { border-color: #818cf8; box-shadow: 0 0 0 3px #e0e7ff; }
